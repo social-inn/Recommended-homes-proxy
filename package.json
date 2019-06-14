@@ -1,0 +1,29 @@
+{
+  "name": "Social-Inn-recommended-homes-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "newrelic.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/social-inn/Recommended-homes-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/social-inn/Recommended-homes-proxy/issues"
+  },
+  "homepage": "https://github.com/social-inn/Recommended-homes-proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "newrelic": "^5.10.0",
+    "pg": "^7.11.0",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "route": "/rooms",
+      "address": "http://localhost:3883/rooms"
+    }
+  ]
+}
