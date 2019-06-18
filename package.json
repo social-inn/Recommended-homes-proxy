@@ -2,9 +2,9 @@
   "name": "Social-Inn-recommended-homes-proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "newrelic.js",
+  "main": "public/index.html",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
