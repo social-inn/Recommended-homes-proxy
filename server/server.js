@@ -6,7 +6,7 @@ const axios = require('axios');
 const app = express();
 const port = 3333;
 
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(__dirname+ '/../public'));
 
 app.get('/rooms/:id', function getRoomsServer(req, res) {
   axios.get('http://52.14.173.208:3883/rooms/' + req.params.id)
